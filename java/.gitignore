@@ -1,4 +1,4 @@
-reated by https://www.gitignore.io/api/intellij
+created by https://www.gitignore.io/api/intellij
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -17,6 +17,9 @@ reated by https://www.gitignore.io/api/intellij
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+
+# Target
+/target/**
 
 # Gradle:
 .idea/**/gradle.xml
