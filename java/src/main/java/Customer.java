@@ -27,7 +27,7 @@ public class Customer {
             double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
 
-            thisAmount = amountFor(each);
+            thisAmount = each.getCharge();
 
             // add frequent renter points
             frequentRenterPoints++;
@@ -49,12 +49,5 @@ public class Customer {
                 " frequent renter points";
         return result;
     }
-
-    private double amountFor(Rental aRental){
-        return aRental.getCharge();
-    }
-
-
-
 
 }
