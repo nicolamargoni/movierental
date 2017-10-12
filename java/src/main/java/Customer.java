@@ -51,7 +51,7 @@ public class Customer {
     }
 
     private double amountFor(Rental aRental){
-        return aRental.amountFor();
+        return aRental.getCharge();
     }
 
 
